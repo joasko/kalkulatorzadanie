@@ -1,0 +1,16 @@
+class Card:
+   def __init__(self, name, surname, company, job_title, e_mail):
+       self.name = name
+       self.surname = surname
+       self.company = company
+       self.job_title = job_title
+       self.e_mail = e_mail
+
+names = ['Tabatha', 'John', 'Sean', 'Sandra', 'Anthony']
+surnames = ['Jones', 'Smith', 'Palmer', 'Edmundson', 'Austin']
+companies = ['Midwest TV & Appliance', 'Delio', 'Wholesale Club, Inc.', 'Vitagee', 'Pauls Food Mart']
+jobs = ['Artist', 'Technical manager', 'Dog trainer', 'Kindergarten teacher', 'Agronomist']
+emails = ['TabathaRJones@dayrep.com', 'J.Smith@dayrep.com', 'SeanGPalmer@dayrep.com', 'SandraBEdmundson@teleworm.us', 'AnthonyKAustin@dayrep.com']
+
+for a,b,c,d,e in zip(names, surnames, companies, jobs, emails):
+    print(a,b,c,d,e)

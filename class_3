@@ -1,0 +1,21 @@
+class Card:
+   def __init__(self, name, surname, company, job_title, e_mail):
+       self.name = name
+       self.surname = surname
+       self.company = company
+       self.job_title = job_title
+       self.e_mail = e_mail
+   def introduce_guest(self):
+        print(self.name + self.surname + ", " + self.company + ", " + self.job_title + ", " + self.e_mail)
+
+card_1 = Card(name="Tabatha ", surname="Jones ", company="Midwest TV & Appliance ", job_title="Artist ", e_mail="TabathaRJones@dayrep.com")
+card_2 = Card(name="John ", surname="Smith ", company="Delio ", job_title="Technical manager ", e_mail="J.Smith@dayrep.com")
+card_3 = Card(name="Sean ", surname="Palmer ", company="Wholesale Club, Inc. ", job_title="Dog trainer ", e_mail="SeanGPalmer@dayrep.com")
+card_4 = Card(name="Sandra ", surname="Edmundson ", company="Vitagee ", job_title="Kindergarten teacher ", e_mail="SandraBEdmundson@teleworm.us")
+card_5 = Card(name="Anthony ", surname="Austin ", company="Pauls Food Mart ", job_title="Agronomist ", e_mail="AnthonyKAustin@dayrep.com")
+
+card_1.introduce_guest()
+card_2.introduce_guest()
+card_3.introduce_guest()
+card_4.introduce_guest()
+card_5.introduce_guest()
